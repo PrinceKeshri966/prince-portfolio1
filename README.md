@@ -1,37 +1,39 @@
-# Welcome to your Portfolio project
+# 🎉 Welcome to *Your Portfolio Project*! 👋
 
-## Project info
+Hi there! Welcome aboard. This is your very own personal portfolio website – beautifully designed, lightning-fast, and 100% customizable.
 
-**URL**: https://portfolio-tanushris-projects-3d472dfb.vercel.app/
+🚀 **Live Site:**  
+👉 [Click here to view your portfolio](https://portfolio-tanushris-projects-3d472dfb.vercel.app/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🛠️ How Can I Edit This Code?
 
-**Use your preferred IDE**
+You’ve got options! Choose the method that works best for you:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. 
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### ✏️ **Option 1: Use Your Favorite Code Editor (Locally)**
 
-Follow these steps:
+Want the power of your own IDE (like VS Code)? Perfect! Let’s get started with a few simple steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+#### ✅ **Prerequisites**
+Make sure you have **Node.js** and **npm** installed.  
+We recommend using [nvm](https://github.com/nvm-sh/nvm) for easier version management.
+
+---
+
+### 🚀 Quick Setup Steps
+
+```bash
+# Step 1: Clone the repo
 git clone https://github.com/tanushrigoel/Portfolio
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate into the project
 cd Portfolio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install the dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Run the development server
 npm run dev
-```
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS

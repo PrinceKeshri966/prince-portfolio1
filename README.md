@@ -3,7 +3,7 @@
 Hi there! Welcome aboard. This is your very own personal portfolio website – beautifully designed, lightning-fast, and 100% customizable.
 
 🚀 **Live Site:**  
-👉 [Click here to view your portfolio](https://portfolio-tanushris-projects-3d472dfb.vercel.app/)
+👉 [Click here to view your portfolio](https://prince-portfolio1.vercel.app/)
 
 ---
 

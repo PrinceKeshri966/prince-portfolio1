@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 44 38% 95%;
+    --foreground: 20 14% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 4%;
+
+    --primary: 24 10% 10%;
+    --primary-foreground: 44 38% 98%;
+
+    --secondary: 44 36% 88%;
+    --secondary-foreground: 24 10% 10%;
+
+    --muted: 44 36% 88%;
+    --muted-foreground: 25 5% 45%;
+
+    --accent: 44 36% 88%;
+    --accent-foreground: 24 10% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 44 38% 98%;
+
+    --border: 20 5% 90%;
+    --input: 20 5% 90%;
+    --ring: 24 10% 10%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-cream text-foreground font-sans bg-[url('/texture.png')] bg-repeat;
+  }
+
+  .button-effect {
+    @apply transition-all duration-300 hover:shadow-md active:scale-95;
+  }
+
+  .nav-link {
+    @apply relative text-foreground font-medium transition-colors after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all hover:after:w-full;
+  }
+
+  .section-container {
+    @apply px-4 max-w-7xl mx-auto my-10 sm:my-20;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .moving-banner {
+    @apply flex whitespace-nowrap overflow-hidden bg-cream-dark border-y border-primary/20;
+  }
+
+  .moving-banner-content {
+    @apply flex items-center animate-marquee;
+  }
+
+  .banner-item {
+    @apply px-4 inline-flex items-center;
+  }
+
+  .glass-card {
+    @apply relative rounded-lg bg-white/90 backdrop-blur-sm border border-white/40 shadow-sm;
+  }
+
+  .project-card {
+    @apply glass-card overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-display font-medium mb-8 text-balance text-center;
+  }
+
+  .section-subtitle {
+    @apply text-xl md:text-2xl font-display mb-4 text-balance;
+  }
+
+  .reveal {
+    @apply opacity-0 transition-all duration-700 ease-out;
+  }
+
+  .reveal.active {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .reveal[data-delay="1"] {
+    transition-delay: 100ms;
+  }
+  
+  .reveal[data-delay="2"] {
+    transition-delay: 200ms;
+  }
+  
+  .reveal[data-delay="3"] {
+    transition-delay: 300ms;
+  }
+}

@@ -39,7 +39,7 @@ const Navbar = () => {
   };
 
   const handleCVClick = () => {
-    window.open('https://drive.google.com/file/d/1NSEzL7gmLfdnkdxnI18TbHwocm-a4E1o/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1G8nbbIXGwV2l2y-MOL2tUu6HctraTGxG/view?usp=sharing', '_blank');
   };
 
   const navItems = [
